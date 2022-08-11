@@ -1,0 +1,101 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    background-color: #444;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 50%;
+    margin: 25px auto;
+    padding: 15px;
+    box-shadow: 3px 5px 8px #222222;
+}
+
+.dashboard {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 90%;
+    margin: 25px auto;
+    padding: 15px;
+    box-shadow: 3px 5px 8px #222222;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 40px;
+    color: #444;
+    margin: 10px auto;
+}
+
+p {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #3838388f;
+}
+
+
+input {
+    width: 75%;
+    height: 50px;
+    border: 0px;
+    padding: 15px;
+    margin: 15px auto 0 auto;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+input:focus {
+    outline: 0;
+    border: 2px solid #2a85fd;
+}
+
+.btn {
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #1775f0;
+    background-color: #1775f0;
+    color: #fff;
+    transition: all 0.3s ease-in 0s;
+    margin: 20px auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #1775f0;
+    color: #1775f0;
+}
+
+.error-message {
+    font-size: 15px;
+    color: red;
+}
+
+.input-error {
+    border: 1px solid red;;
+}
